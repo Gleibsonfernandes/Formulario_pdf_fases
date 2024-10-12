@@ -1,0 +1,73 @@
+body {
+    background-color: #f0f0f0; /* Cinza claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo do container do formulário */
+.form-container {
+    background-color: #ffffff; /* Fundo branco do formulário */
+    padding: 40px;
+    border-radius: 10px; /* Canto arredondado */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 360px; /* Limita a largura máxima */
+}
+
+/* Estilo dos labels */
+.form-container label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #333; /* Cor do texto dos labels */
+}
+
+/* Estilo dos inputs do formulário */
+.form-container input {
+    display: block;
+    width: 100%;
+    padding: 10px 0; /* Espaçamento interno apenas em cima e embaixo */
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid transparent; /* Borda inicial transparente */
+    background: none;
+    box-sizing: border-box;
+    outline: none;
+    border-image: linear-gradient(to right, #800080, #9932cc, #8a2be2) 1; /* Borda inferior com degradê */
+    border-bottom: 1px solid; /* Define a espessura fina da borda inferior */
+    transition: border-bottom-color 0.3s ease; /* Suave transição */
+}
+
+/* Efeito ao focar no input */
+.form-container input:focus {
+    border-bottom-color: #9932cc; /* Foca em um tom mais intenso ao focar */
+}
+
+/* Estilo do botão com gradiente roxo */
+.form-container button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(45deg, #053181, #2696f1, #1846aa); /* Gradiente em tons de roxo */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background: linear-gradient(45deg, #1846aa, #2696f1); /* Alteração no gradiente ao passar o mouse */
+}
+.form-container p{
+    margin-bottom: 0px;
+    margin-top: 10%;color: #636262;
+   
+}
